@@ -19,7 +19,7 @@ import ThanksThree from '../img/50thanks3.jpg';
 const FaqSection = () => {
     const [element, controls] = useScroll();
     return (
-        <Faq variants={scrollReveal} ref={element} animate={controls} inintial="hidden">
+        <Faq>
         <AnimateSharedLayout>
             <h2>Участие в конкурсах и мероприятиях</h2>
             <Toggle title='Перечень конкурсов и мероприятий, в которых было принято участие'>
