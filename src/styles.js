@@ -15,6 +15,7 @@ export const About = styled(motion.div)`
     }
     @media screen and (max-width: 450px) {
         padding: 1rem 1rem;
+        min-height: 50vh;
     }
 `;
  
